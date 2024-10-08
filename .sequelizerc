@@ -1,0 +1,5 @@
+const patch = require('path');
+module.exports = {
+    config: path.resolver(__dirname, 'src', 'config','conexao.js'),
+    'migrations-path': path.resolver(__dirname,'src', 'conexao', 'migrations')
+};
